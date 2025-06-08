@@ -11,8 +11,8 @@ export default{
  <pv-toolbar class="flex flex-column toolbar-custom ">
    <template #center>
      <div class="flex flex-column">
-       <a href="#">Home</a>
-       <a href="#">Quotes</a>
+       <router-link to="/home">Home</router-link>
+       <router-link to="/quotes">Quotes</router-link>
      </div>
    </template>
  </pv-toolbar>
@@ -20,7 +20,7 @@ export default{
 
 <style scoped>
 .toolbar-custom {
-  height: 100vh;
+  height: 90vh;
   background-color: #fff;
   padding: 0;
   border: none;
