@@ -1,7 +1,5 @@
 <script>
 
-import {SelectButton as PvSelectButton} from "primevue";
-
 export default{
   name: "language-switcher",
   data(){
