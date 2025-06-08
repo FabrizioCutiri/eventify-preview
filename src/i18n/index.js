@@ -4,7 +4,7 @@ import es from '../locales/es.json'
 import {createI18n} from "vue-i18n";
 
 const i18n = createI18n({
-    locale: en,
+    locale: 'en',
     fallbackLng: 'en',
     globalInjection: true,
     messages: {en,es}
